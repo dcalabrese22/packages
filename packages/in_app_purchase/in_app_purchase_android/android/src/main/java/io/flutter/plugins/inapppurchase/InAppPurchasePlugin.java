@@ -55,7 +55,7 @@ public class InAppPurchasePlugin implements FlutterPlugin, ActivityAware {
   @Override
   public void onDetachedFromActivity() {
     methodCallHandler.setActivity(null);
-    methodCallHandler.onDetachedFromActivity();
+//    methodCallHandler.onDetachedFromActivity();
   }
 
   @Override
